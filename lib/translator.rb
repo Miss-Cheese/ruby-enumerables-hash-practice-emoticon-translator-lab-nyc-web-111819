@@ -21,10 +21,11 @@ result_hash[:get_emoticon] = get_emoticon
 
 
   puts "1----------------------"
-  pp library_hash
+  pp result_hash
   puts "2----------------------"
 
-  
+result_hash
+
 end
 
 def get_japanese_emoticon
