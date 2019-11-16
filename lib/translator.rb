@@ -20,9 +20,11 @@ result_hash[:get_meaning] = get_meaning
 result_hash[:get_emoticon] = get_emoticon
 
 
-  # puts "1----------------------"
-  # pp library_hash
-  # puts "2----------------------"
+  puts "1----------------------"
+  pp library_hash
+  puts "2----------------------"
+
+  
 end
 
 def get_japanese_emoticon
