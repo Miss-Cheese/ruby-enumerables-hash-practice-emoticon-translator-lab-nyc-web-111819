@@ -2,14 +2,21 @@ require 'yaml'
 
 def load_library(file_path)
   library_hash = YAML.load_file(file_path)
-  puts "1----------------------"
-  pp library_hash
+
+  result_hash = {}
+
+  get_meaning = {}
+  get_emoticon = {}
 
   library_hash.keys.each {|meaning|
     emoticon = library_hash[meaning][0]
     japanese_emoticon = library_hash[meaning][1]
+
   }
-  puts "2----------------------"
+
+  # puts "1----------------------"
+  # pp library_hash
+  # puts "2----------------------"
 end
 
 def get_japanese_emoticon
