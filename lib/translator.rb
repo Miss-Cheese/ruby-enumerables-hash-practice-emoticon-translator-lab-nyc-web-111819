@@ -12,7 +12,13 @@ def load_library(file_path)
     emoticon = library_hash[meaning][0]
     japanese_emoticon = library_hash[meaning][1]
 
+    get_meaning[japanese_emoticon] = meaning
+    get_emoticon[emoticon] = japanese_emoticon
   }
+
+result_hash[:get_meaning] = get_meaning
+result_hash[:get_emoticon] = get_emoticon
+
 
   # puts "1----------------------"
   # pp library_hash
