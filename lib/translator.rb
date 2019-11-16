@@ -19,11 +19,6 @@ def load_library(file_path)
 result_hash[:get_meaning] = get_meaning
 result_hash[:get_emoticon] = get_emoticon
 
-
-  puts "1----------------------"
-  pp result_hash
-  puts "2----------------------"
-
 result_hash
 
 end
